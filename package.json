@@ -1,0 +1,39 @@
+{
+  "name": "architect-marko",
+  "description": "Architect.js plugin to expose the marko library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Todd Bashor",
+    "email": "todd@thestartersacademy.com"
+  },
+  "license": "MIT",
+  "main": "./service.js",
+  "keywords": [
+    "templating",
+    "template",
+    "async",
+    "streaming",
+    "architect",
+    "plugin"
+  ],
+  "plugin": {
+    "consumes": [
+      "debug"
+    ],
+    "provides": [
+      "marko",
+      "browserRefresh",
+      "hotReload"
+    ]
+  },
+  "dependencies": {
+    "async-writer": "1.4.1",
+    "events": "1.1.0",
+    "marko": "2.9.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbashor/architect-marko.git"
+  }
+}
